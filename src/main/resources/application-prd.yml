@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://ballast.proxy.rlwy.net:23181/railway
+    username: ${PGUSER}
+    password: ${PGPASSWORD}
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
